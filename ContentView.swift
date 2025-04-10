@@ -2,6 +2,7 @@ import SwiftUI
 
 struct ContentView: View {
     @State var number2 = 0
+    @State var answer: Int = 0
     var body: some View {
         VStack {
             Image(systemName: "globe")
@@ -11,3 +12,4 @@ struct ContentView: View {
         }
     }
 }
+
