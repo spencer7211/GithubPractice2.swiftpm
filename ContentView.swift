@@ -8,6 +8,11 @@ struct ContentView: View {
         Text("\(answer)")
         TextField("number1", value: $number1, format: .number)
         TextField("number2", value: $number2, format: .number)
+        Button(action: {
+            answer = number1 + number2
+        }) {
+            Text("Add")
+        }
     }
 }
 
